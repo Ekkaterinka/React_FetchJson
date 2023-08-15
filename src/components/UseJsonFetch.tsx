@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export default function UseJsonFetch(url: any, Data:any) {
+export default function UseJsonFetch(url: string, Data:any) {
     const [data, setData] = useState(Data);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(false);

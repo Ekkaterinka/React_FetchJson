@@ -1,4 +1,4 @@
-import UseJsonFetch from "../useJsonFetch"
+import UseJsonFetch from "./UseJsonFetch";
 
 export default function Data({url}:{url:string}) {
         const [{ data: data, loading, error }] = UseJsonFetch(url, []);
